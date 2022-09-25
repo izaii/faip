@@ -46,7 +46,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.exp))
                     user.exp = 0
                 if (!isNumber(user.limit))
-                    user.limit = 100
+                    user.limit = 10
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
                 if (!isNumber(user.pasangan))
@@ -202,7 +202,7 @@ export async function handler(chatUpdate) {
             } else
                 global.db.data.users[m.sender] = {
                     exp: 0,
-                    limit: 100,
+                    limit: 10,
                     lastclaim: 0,
                     registered: false,
                     name: m.name,
@@ -702,7 +702,7 @@ export async function participantsUpdate({ id, participants, action }) {
     mediaUrl: "https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow",
     mediaType: 2, 
     description: "https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow", 
-    title: 'WH-MODS-BOT-V1-MultiDevice',
+    title: 'Faiz',
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
     sourceUrl: sgc
@@ -763,8 +763,6 @@ export async function deleteUpdate(message) {
             return
         await this.reply(msg.chat, `
 Terdeteksi @${participant.split`@`[0]} telah menghapus pesan
-Untuk mematikan fitur ini, ketik
-*.enable delete*
 `.trim(), msg, {
             mentions: [participant]
         })
