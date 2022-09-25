@@ -298,7 +298,7 @@ const listMessage = {
   footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
-  buttonText: `CLICK HERE ⎙`, 
+  buttonText: `FAIZ GG ⎙`, 
   sections
 }
   if (teks == '404') {
@@ -551,7 +551,7 @@ handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
 handler.command = /^(menu|help|\?)$/i
 
-handler.register = false
+handler.register = true
 handler.exp = 3
 
 export default handler
