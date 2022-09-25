@@ -14,7 +14,7 @@ handler.help = ['join <chat.whatsapp.com>']
 handler.tags = ['owner']
 
 handler.command = /^join$/i
-handler.rowner = true
+handler.premium = true
 
 export default handler
 
