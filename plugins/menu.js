@@ -245,7 +245,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `⫹🔥 › 𐐪-〚 Virtex 〛-𐑂`, rowId: ".? virus", description: "╰► Jangan kak bahaya -𐑂"},
 	]
     },{
-	title: `${htki} ▮𝗜𝗻𝗳𝗼 」 ${htka}`,
+	title: `${htki} ▮AKAN DATANG 」 ${htka}`,
 	rows: [
 	    {title: `💬 ∫ » Event «`, rowId: ".event", description: "✧ Nyari diskon? hahaha >.</"},
 	    {title: `🎳 ∫ » Version «`, rowId: ".cekversi", description: "✧ Mau ngapain ya?..."},
@@ -296,7 +296,7 @@ const listMessage = {
   text: tek,
   footer: '© ARIF XD | ALL RESERVED',
   mentions: await conn.parseMention(tek),
-  title: ``,
+  title: `FAIZ BOT NIH BOZZZ`,
   buttonText: `LIST MENU`,
   sections
 }
