@@ -554,8 +554,8 @@ await conn[_0x187932(0x1c2)](m[_0x187932(0x1cf)], buttonMessage, {
 */
 
 	/** Baru */
-	let img = fs.readFileSync('./img/atas.png')
-	let img2 = fs.readFileSync('./img/bawah.png')
+	let img = fs.readFileSync('./lib/atas.png')
+	let img2 = fs.readFileSync('./lib/atas.png')
 	return conn.sendButton(m.chat, '.', text, img2, [["SEWA BOT", _p + "sewabot"], ["SCRIPT", _p + "sc"], ["OWNER", _p + "owner"]], m, {
         contextInfo: {
             externalAdReply: {
